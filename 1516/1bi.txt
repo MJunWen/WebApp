@@ -1,0 +1,4 @@
+Use SVG format
+It doesn’t matter about your screen size, zoom level, resolution or whether or not you have a ‘retina’ display.
+ SVG is vector based, paths, shapes and fills. 
+ This allows for infinite resolution, much like when creating artwork for print and using shapes, the same principles apply!
