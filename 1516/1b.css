@@ -3,6 +3,7 @@ body {
     min-width:850px;
     font-family: Verdana, Arial, sans-serif;
     background-color:grey;
+    margin: auto;
 }
 header img {
     min-width:800px;
