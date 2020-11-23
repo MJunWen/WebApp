@@ -1,0 +1,51 @@
+.contentarea {
+    margin:auto;
+    width:80%;
+    min-width:900px;
+    border: 5px solid #3377FF;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    color:#002266;
+    background-color:white;
+}
+
+.topbanner {
+    background-color:#3377ff;
+}
+
+.topbanner img {
+    width:800px;
+    height:80px;
+}
+
+nav li {
+    display:inline;
+    background-color:#CCDDFF;
+}
+
+nav li a {
+    width:150px;
+    height:40px;
+}
+
+.inner:after  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .leftcolumn {
+      float:left;
+      width:300px;
+  }
+
+  .rightcolumn {
+      float:right;
+      width:700px;
+  }
+
+  fieldset {
+    background-color:#FFCC99;
+  }
