@@ -1,0 +1,15 @@
+membership (matriculationnumber, studentname , gender, contactaddress, emailaddress, contact number)
+primary:matriculation
+secondary:
+
+Catalogue(eventid, eventschedule, ticketprice, seatingcapacity, briefdescription, fulldescription)
+primary:eventid
+secondary:
+
+Booking(bookingid, eventid, matriculationnumber, eventid, amount , date )
+primary:bookingid
+secondary:eventid,matriculationnumber
+
+Track(eventid, booked)
+primary:eventid
+secondary:
