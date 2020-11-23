@@ -5,7 +5,7 @@ var regexp1ci = new RegExp (/^[A-Za-z]+([\s]?[A-Za-z\-])*[A-Za-z]+/); //(Any alp
 
 // 1cii)Matriculation number string of 7 numeric digits. The string is preceded by two or three characters and ends with a single character.
 // There should be no white space within the entire sring
-var regexp1cii = new RegExp (/^[A-Za-z]{2,3}\d{7}[A-za-z]{1}$/);
+var regexp1cii = new RegExp (/^[A-Za-z]{2,3}\d{7}[A-za-z]$/);
 
 //1ciii) Email - usernamepart and a domain name. The two parts are seperated by single character @. Username should begin with character
 //and maybe contain . or - . The domain name may have 1 or more address extensions, each seperated by . . Last extension 2-4 characters

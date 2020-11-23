@@ -24,17 +24,29 @@ header {
     margin: auto;
     width: 50%;
   }
+
+nav {
+    padding-bottom:10px;
+}
 ul {
     list-style:none;
     margin-top:0px;
+    padding-left:0px;
 }
 
 li, li a {
     display:inline;
     text-decoration: none;
+    padding-bottom:10px;
+    padding-right:10px;
+    
+}
+
+li a {
     border: 1px;
     border-color: black;
     border-style:solid;
+    padding-right:50px;
 }
 
 .textarea img {
