@@ -8,4 +8,4 @@ var regexp1cii = /^[A-Z]\d{7}[A-Z]$/;
 var regexp1cii = /^\d{4}[-]?\d{4}$/;
 
 //1civ
-var regexp1cii = //;
+var regexp1cii = /^(?!.*\.\-)(?!.*\-\.)[\w.-]+@[\w.-]+[.][\w]{2,4}$/;
