@@ -49,6 +49,11 @@ li a {
     padding-right:50px;
 }
 
+li a img {
+    height:40px;
+    width:150px;
+}
+
 .textarea img {
     float:right;
     min-width:400px;

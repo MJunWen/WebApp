@@ -1,0 +1,18 @@
+1di)
+users (PIDN, username, contactnumber, emailaddress, companyname, companyaddress, type)
+primary:PIDN
+
+RFT (tenderID,title, sector, scope, description, bidID , PIDN)
+primary key:tenderID
+secondary key: bidID , PIDN
+
+ITB(bidID,cost, duration, warranty, tenderID , PIDN)
+primary key:bidID
+secondary key: tenderID , PIDN
+
+1dii)
+SELECT * from ITB where cost=(select min(cost) from ITB) AND tenderId = 9002;
+
+1diii)
+
+UPDATE RFT set bidID=8025 WHERE tenderID = 9002;
