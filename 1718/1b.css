@@ -1,51 +1,128 @@
 .contentarea {
-    margin:auto;
-    width:80%;
-    min-width:900px;
+    margin: auto;
+    width: 80%;
+    min-width: 900px;
     border: 5px solid #3377FF;
 }
 
 body {
     font-family: Verdana, Arial, sans-serif;
-    color:#002266;
-    background-color:white;
+    color: #002266;
+    background-color: white;
 }
 
 .topbanner {
-    background-color:#3377ff;
+    background-color: #3377ff;
+    padding:10px;
 }
 
 .topbanner img {
-    width:800px;
-    height:80px;
+    min-width: 800px;
+    min-height: 80px;
+    border: 1px solid black;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+nav {
+    background-color: #CCDDFF;
+}
+
+nav ul {
+    margin: 0px;
+    padding-left:0px;
 }
 
 nav li {
-    display:inline;
-    background-color:#CCDDFF;
+    display: inline;
+    padding: 20px;
 }
 
 nav li a {
-    width:150px;
-    height:40px;
+    border: 1px solid black;
+    padding-right:10px;
+    padding-bottom:10px;
 }
 
-.inner:after  {
+nav li a img {
+    min-width: 150px;
+    min-height: 40px;
+}
+
+.inner:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .leftcolumn {
-      float:left;
-      width:300px;
-  }
+.leftcolumn {
+    float: left;
+    width: 300px;
+}
 
-  .rightcolumn {
-      float:right;
-      width:700px;
-  }
+.rightcolumn {
+    float: right;
+    width: 700px;
+}
 
-  fieldset {
-    background-color:#FFCC99;
-  }
+.rightcoumn h2 {
+    color: #6699ff;
+}
+
+.rightcolumn .advertisement {
+    min-width: 200px;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+fieldset {
+    background-color: #FFCC99;
+}
+
+video {
+    width: 280px;
+    height: 200px;
+}
+
+footer {
+    color: white;
+    background-color: #3377ff;
+    text-align: center;
+    font-size: 70%;
+}
+
+label {
+    float:left;
+    clear:left;
+    text-align: left;
+    display:block;
+    width:100px;
+}
+
+#newuser {
+    float:right;
+}
+
+#newuser:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rightcolumn img {
+    float:right;
+}
+
+.bookcover {
+    display:inline-block;
+}
+
+.bookcover img {
+    min-width:100px;
+    min-height:100px;
+   
+    border: 1px solid black;
+}
