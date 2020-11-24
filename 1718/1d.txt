@@ -1,0 +1,32 @@
+1di)
+user(userID, password, type)
+books(ISBN, category, author, title, abstract, price, qty_sold, image)
+orders(orderID, userID, ISBN, qty_ordered, date)
+books_review(ISBN, book_review)
+
+1dii)
+$query = “UPDATE books, orders SET books.qty_sold= books.qty_sold + orders.qty_ordered WHERE books.isbn=orders.isbn and orders.orderID=2;”
+$result = $db -> query($query);
+If ($result)
+ echo “Success”;
+else
+ echo “Failed”;
+
+ 1diii)
+ SELECT titles FROM books ORDER BY qty_sold DESC LIMIT 5;
+
+ 1div)
+ $userid = $_POST[‘userid’];
+$password = $_POST[‘password’];
+$password = md5($password);
+ $query = 'select * from users '
+           ."where username='$userid' "
+           ." and password='$password'";
+  $result = $db->query($query);
+  if ($result->num_rows >0 )
+  {
+      $type = $result -> fetch_assoc();
+       $_SESSION['valid_user'] = $userid;    
+  }
+  $db>close();
+
